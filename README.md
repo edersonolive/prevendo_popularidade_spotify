@@ -1,6 +1,6 @@
 ![descrição da imagem](https://i.ibb.co/jhn8vyd/Data-Science-1.jpg)
 
-O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. Através deste projeto, busca-se entender quais características das músicas influenciam na sua popularidade, e como essas características podem ser utilizadas para prever a popularidade de novas músicas.</p>
+O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. </p>
 
 Os dados utilizados estão disponíveis <a href="https://raw.githubusercontent.com/letpires/7DaysOfCodeSpotifyML/main/dataset.csv">aqui</a></br>
 Me encontre no linkedIn clicando <a href="https://www.linkedin.com/in/edersonliver/">aqui</a>.</br>
@@ -39,9 +39,9 @@ As seguintes técnicas foram utilizadas na etapa de Machine Learning:</p>
 
 <li>Balanceamento dos dados: foram utilizadas técnicas de balanceamento de dados para garantir que o modelo não tivesse viés em relação às classes, já que a classe de músicas populares é minoritária.</p>
 
-<li>Treinamento e teste dos modelos: os modelos foram treinados e testados utilizando o conjunto de dados tratado e balanceado. Foi utilizada a técnica de cross-validation para garantir a qualidade do modelo.</p>
+<li>Treinamento e teste dos modelos: foram quatro modelos testados (Logistic Regression, Decision Tree Classifier, KNearest e Random Forest). Além disso, foram testados Random UnderSampling, Random Over-Sampling, SMOTE e Híbrido (Oversampling e Undersampling) como métodos de reamostragem</p>
 
-<li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score. Foram escolhidos os modelos com melhor desempenho para a próxima etapa.</p>
+<li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score, além da avaliação da Curva ROC.</p>
 
 <h3>4. Previsão da popularidade de novas músicas</h3>
 Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade de novas músicas. Para isso, foram selecionadas algumas músicas do Spotify e suas características foram extraídas. Em seguida, utilizou-se o modelo para classificar essas músicas como populares ou não populares.</p>
