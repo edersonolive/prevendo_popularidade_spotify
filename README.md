@@ -2,11 +2,10 @@
 
 O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. Através deste projeto, busca-se entender quais características das músicas influenciam na sua popularidade, e como essas características podem ser utilizadas para prever a popularidade de novas músicas.</p>
 
-Os dados utilizados estão disponíveis <a href="[https://raw.githubusercontent.com/sthemonica/alura-voz/main/Dados/Telco-Customer-Churn.json])">aqui</a></br>
+Os dados utilizados estão disponíveis <a href="https://raw.githubusercontent.com/letpires/7DaysOfCodeSpotifyML/main/dataset.csv">aqui</a></br>
 Me encontre no linkedIn clicando <a href="https://www.linkedin.com/in/edersonliver/">aqui</a>.</br>
 Me acompanhe no Medium clicando <a href="https://medium.com/@edersonoliveira">aqui</a>.
 
-O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. Através deste projeto, busca-se entender quais características das músicas influenciam na sua popularidade, e como essas características podem ser utilizadas para prever a popularidade de novas músicas.</p>
 
 <h2>Etapas do projeto</h2>
 <h3>1. Tratamento dos dados</h3>
@@ -44,7 +43,7 @@ As seguintes técnicas foram utilizadas na etapa de Machine Learning:</p>
 
 <li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score. Foram escolhidos os modelos com melhor desempenho para a próxima etapa.</p>
 
-<h3>Previsão da popularidade de novas músicas</h3>
+<h3>4. Previsão da popularidade de novas músicas</h3>
 Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade de novas músicas. Para isso, foram selecionadas algumas músicas do Spotify e suas características foram extraídas. Em seguida, utilizou-se o modelo para classificar essas músicas como populares ou não populares.</p>
 
 <h2>Resultados e conclusão</h2>
@@ -66,13 +65,13 @@ Com o modelo desenvolvido, é possível tomar decisões mais embasadas na indús
 
 <li>track_name: O nome da faixa</li>
 
-<li>popularity: A popularidade de uma faixa é um valor entre 0 e 100, sendo 100 a mais popular. A popularidade é calculada por algoritmo e é baseada, em grande parte, no número total de reproduções que a faixa teve e quão recentes são essas reproduções. Em geral, as músicas que estão sendo reproduzidas muito agora terão uma popularidade maior do que as músicas que foram reproduzidas muito no passado. Faixas duplicadas (por exemplo, a mesma faixa de um single e de um álbum) são avaliadas independentemente. A popularidade do artista e do álbum é derivada matematicamente da popularidade da faixa.</li>
+<li>popularity: A popularidade de uma faixa é um valor entre 0 e 100, sendo 100 a mais popular. A popularidade é calculada por algoritmo e é baseada, em grande parte, no número total de reproduções que a faixa teve e quão recentes são essas reproduções. </li>
 
 <li>duration_ms: O comprimento da faixa em milissegundos</li>
   
 <li>explicit: Se a faixa contém letras explícitas (verdadeiro = sim, contém; falso = não, não contém OU desconhecido)</li>
   
-<li>danceability: Danceability descreve o quão adequada uma faixa é para dançar com base em uma combinação de elementos musicais, incluindo tempo, estabilidade rítmica, força do ritmo e regularidade geral. Um valor de 0,0 é o menos dançável e 1,0 é o mais dançável</li>
+<li>danceability: Danceability descreve o quão adequada uma faixa é para dançar. Um valor de 0,0 é o menos dançável e 1,0 é o mais dançável</li>
   
 <li>energy: Energy é uma medida de 0,0 a 1,0 e representa uma medida perceptual de intensidade e atividade. Tipicamente, faixas energéticas parecem rápidas, altas e barulhentas. Por exemplo, o death metal tem alta energia, enquanto um prelúdio de Bach tem pontuação baixa na escala</li>
   
@@ -82,13 +81,7 @@ Com o modelo desenvolvido, é possível tomar decisões mais embasadas na indús
   
 <li>mode: Modo indica a modalidade (maior ou menor) de uma faixa, o tipo de escala a partir da qual seu conteúdo melódico é derivado. Maior é representado por 1 e menor é 0</li>
   
-<li>speechiness: Speechiness detecta a presença de palavras faladas em uma faixa. Quanto mais exclusivamente parecida com fala a gravação (por exemplo, programa de entrevistas, audiolivro, poesia), mais próximo de 1,0 é o valor do atributo. Valores acima de 0,66 descrevem faixas que provavelmente são feitas inteiramente de palavras faladas. Valores entre 0,33 e 0,66 descrevem faixas que podem conter tanto música quanto fala, seja em seções ou em camadas, incluindo casos como música rap. Valores abaixo de 0,33 provavelmente representam música e outras faixas não parecidas com fala</li>
-  
-<li>loudness: O volume geral de uma faixa em decibéis (dB)</li>
-  
-<li>modo: Modo indica a modalidade (maior ou menor) de uma faixa, o tipo de escala a partir da qual seu conteúdo melódico é derivado. Maior é representado por 1 e menor é representado por 0</li>
-  
-<li>speechiness: Speechiness detecta a presença de palavras faladas em uma faixa. Quanto mais exclusivamente semelhante à fala for a gravação (por exemplo, talk show, audiolivro, poesia), mais próximo de 1,0 será o valor do atributo. Valores acima de 0,66 descrevem faixas que provavelmente são compostas inteiramente por palavras faladas. Valores entre 0,33 e 0,66 descrevem faixas que podem conter música e fala, seja em seções ou camadas, incluindo casos como música rap. Valores abaixo de 0,33 provavelmente representam música e outras faixas não semelhantes à fala</li>
+<li>speechiness: Speechiness detecta a presença de palavras faladas em uma faixa. Quanto mais exclusivamente parecida com fala a gravação (por exemplo, programa de entrevistas, audiolivro, poesia), mais próximo de 1,0 é o valor do atributo.</li>
   
 <li>acousticness: Uma medida de confiança de 0,0 a 1,0 de se a faixa é acústica. 1,0 representa alta confiança de que a faixa é acústica</li>
   
