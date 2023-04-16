@@ -24,27 +24,27 @@ A primeira etapa do projeto consistiu no tratamento dos dados, a fim de garantir
 <h3>2. Análise exploratória</h3>
 Após o tratamento dos dados, foi realizada uma análise exploratória para entender melhor o conjunto de dados e encontrar possíveis padrões. As seguintes técnicas foram utilizadas na análise exploratória:</p>
 
-<li>Análise da duração das músicas: foi feita uma análise das músicas com maiores e menores durações, buscando entender se a duração tem alguma relação com a popularidade.</p>
+<ol><li>Análise da duração das músicas: foi feita uma análise das músicas com maiores e menores durações, buscando entender se a duração tem alguma relação com a popularidade.</p>
 
 <li>Análise das músicas mais populares: foram analisadas as músicas com maiores índices de popularidade, buscando encontrar possíveis padrões em suas características.</p>
 
 <li>Análise dos artistas mais populares: foram analisados os artistas com maiores índices de popularidade, buscando entender se a popularidade do artista influencia na popularidade da música.</p>
 
-<li>Correlação entre as variáveis: foi feita uma análise de correlação entre as variáveis, buscando entender como as características das músicas estão relacionadas entre si.</p>
+<li>Correlação entre as variáveis: foi feita uma análise de correlação entre as variáveis, buscando entender como as características das músicas estão relacionadas entre si.</p></ol>
 
 <h3>3. Machine Learning</h3>
 Na terceira etapa do projeto, foram testados 4 modelos de classificação: Logistic Regression, Decision Tree Classifier, KNearest e Random Forest. Além disso, foram utilizadas técnicas de balanceamento de dados, com Random UnderSampling, Random Over-Sampling, SMOTE e Híbrido (Oversampling e Undersampling), para garantir que o modelo não tivesse viés em relação às classes.</p>
 
 As seguintes técnicas foram utilizadas na etapa de Machine Learning:</p>
 
-<li>Balanceamento dos dados: foram utilizadas técnicas de balanceamento de dados para garantir que o modelo não tivesse viés em relação às classes, já que a classe de músicas populares é minoritária.</p>
+<ol><li>Balanceamento dos dados: foram utilizadas técnicas de balanceamento de dados para garantir que o modelo não tivesse viés em relação às classes, já que a classe de músicas populares é minoritária.</p>
 
 <li>Treinamento e teste dos modelos: foram quatro modelos testados (Logistic Regression, Decision Tree Classifier, KNearest e Random Forest). Além disso, foram testados Random UnderSampling, Random Over-Sampling, SMOTE e Híbrido (Oversampling e Undersampling) como métodos de reamostragem</p>
 
 <li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score, além da avaliação da Curva ROC.</p>
 
 <h3>4. Previsão da popularidade de novas músicas</h3>
-Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade das músicas do dataset. Ao final foi salvou um dataset com os resultados das previsões, mostrando se o modelo acertou ou não a popularidade de cada música.</p>
+Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade das músicas do dataset. Ao final foi salvou um dataset com os resultados das previsões, mostrando se o modelo acertou ou não a popularidade de cada música.</p></ol>
 
 <h2>Resultados e conclusão</h2>
 O modelo com melhor desempenho foi o Random Forest, com uma acurácia de 87,5% e f1-score de 0,89. A análise exploratória mostrou que as características das músicas que mais influenciam na popularidade são: valence, energy, loudness e danceability.</p>
