@@ -41,7 +41,7 @@ As seguintes técnicas foram utilizadas na etapa de Machine Learning:</p>
 
 <li>Treinamento e teste dos modelos: foram quatro modelos testados (Logistic Regression, Decision Tree Classifier, KNearest e Random Forest). Além disso, foram testados Random UnderSampling, Random Over-Sampling, SMOTE e Híbrido (Oversampling e Undersampling) como métodos de reamostragem</p>
 
-<li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score, além da avaliação da Curva ROC.</p><ol>
+<li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score, além da avaliação da Curva ROC.</p></ol>
 
 <h3>4. Previsão da popularidade de novas músicas</h3>
 Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade das músicas do dataset. Ao final foi salvou um dataset com os resultados das previsões, mostrando se o modelo acertou ou não a popularidade de cada música.</p>
