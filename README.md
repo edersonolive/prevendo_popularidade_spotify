@@ -11,7 +11,7 @@ Me acompanhe no Medium clicando <a href="https://medium.com/@edersonoliveira">aq
 <h3>1. Tratamento dos dados</h3>
 A primeira etapa do projeto consistiu no tratamento dos dados, a fim de garantir a qualidade e integridade dos dados utilizados para o modelo de classificação. As seguintes técnicas foram utilizadas para o tratamento dos dados:</p>
 
-<li>Tratamento de dados ausentes e nulos: foram verificadas as colunas com dados faltantes e nulos e foi feita uma análise para determinar a melhor maneira de tratar esses valores, seja removendo as linhas ou preenchendo os valores com a média ou mediana.</p>
+<ol><li>Tratamento de dados ausentes e nulos: foram verificadas as colunas com dados faltantes e nulos e foi feita uma análise para determinar a melhor maneira de tratar esses valores, seja removendo as linhas ou preenchendo os valores com a média ou mediana.</p>
 
 <li>Análise dos tipos de dados: foi feita uma análise de cada coluna para determinar o tipo de dados armazenados, como categóricos ou numéricos, para adequar o tratamento de cada tipo de dados.</p>
 
@@ -19,7 +19,7 @@ A primeira etapa do projeto consistiu no tratamento dos dados, a fim de garantir
 
 <li>Transformação de variáveis: foram feitas transformações em variáveis categóricas para que pudessem ser utilizadas como features para o modelo.</p>
 
-<li>Análise de inconsistência nos dados: foram verificadas as inconsistências nos dados, como valores inválidos e outliers, e foram tratados adequadamente.</p>
+<li>Análise de inconsistência nos dados: foram verificadas as inconsistências nos dados, como valores inválidos e outliers, e foram tratados adequadamente.</p></ol>
 
 <h3>2. Análise exploratória</h3>
 Após o tratamento dos dados, foi realizada uma análise exploratória para entender melhor o conjunto de dados e encontrar possíveis padrões. As seguintes técnicas foram utilizadas na análise exploratória:</p>
