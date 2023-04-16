@@ -44,7 +44,7 @@ As seguintes técnicas foram utilizadas na etapa de Machine Learning:</p>
 <li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score, além da avaliação da Curva ROC.</p>
 
 <h3>4. Previsão da popularidade de novas músicas</h3>
-Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade de novas músicas. Para isso, foram selecionadas algumas músicas do Spotify e suas características foram extraídas. Em seguida, utilizou-se o modelo para classificar essas músicas como populares ou não populares.</p>
+Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade das músicas do dataset. Ao final foi salvou um dataset com os resultados das previsões, mostrando se o modelo acertou ou não a popularidade de cada música.</p>
 
 <h2>Resultados e conclusão</h2>
 O modelo com melhor desempenho foi o Random Forest, com uma acurácia de 87,5% e f1-score de 0,89. A análise exploratória mostrou que as características das músicas que mais influenciam na popularidade são: valence, energy, loudness e danceability.</p>
