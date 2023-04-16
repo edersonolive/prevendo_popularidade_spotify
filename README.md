@@ -1,48 +1,48 @@
 ![descrição da imagem](https://i.ibb.co/jhn8vyd/Data-Science-1.jpg)
 
-<p>Será que conseguimos prever a popularidade de uma música analisando suas características? Esse projeto tem o objetivo de propor um modelo de classificação eficaz para essa tarefa utilizando um dataset de músicas do spotify.</p>
-Os dados utilizados estão disponíveis <a href="[https://raw.githubusercontent.com/sthemonica/alura-voz/main/Dados/Telco-Customer-Churn.json](https://raw.githubusercontent.com/letpires/7DaysOfCodeSpotifyML/main/dataset.csv)">aqui</a></br>
+O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. Através deste projeto, busca-se entender quais características das músicas influenciam na sua popularidade, e como essas características podem ser utilizadas para prever a popularidade de novas músicas.</p>
+
+Os dados utilizados estão disponíveis <a href="[https://raw.githubusercontent.com/sthemonica/alura-voz/main/Dados/Telco-Customer-Churn.json])">aqui</a></br>
 Me encontre no linkedIn clicando <a href="https://www.linkedin.com/in/edersonliver/">aqui</a>.</br>
 Me acompanhe no Medium clicando <a href="https://medium.com/@edersonoliveira">aqui</a>.
 
-<h2>Introdução</h2>
 O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. Através deste projeto, busca-se entender quais características das músicas influenciam na sua popularidade, e como essas características podem ser utilizadas para prever a popularidade de novas músicas.</p>
 
 <h2>Etapas do projeto</h2>
 <h3>1. Tratamento dos dados</h3>
 A primeira etapa do projeto consistiu no tratamento dos dados, a fim de garantir a qualidade e integridade dos dados utilizados para o modelo de classificação. As seguintes técnicas foram utilizadas para o tratamento dos dados:</p>
 
-Tratamento de dados ausentes e nulos: foram verificadas as colunas com dados faltantes e nulos e foi feita uma análise para determinar a melhor maneira de tratar esses valores, seja removendo as linhas ou preenchendo os valores com a média ou mediana.</p>
+<li>Tratamento de dados ausentes e nulos: foram verificadas as colunas com dados faltantes e nulos e foi feita uma análise para determinar a melhor maneira de tratar esses valores, seja removendo as linhas ou preenchendo os valores com a média ou mediana.</p>
 
-Análise dos tipos de dados: foi feita uma análise de cada coluna para determinar o tipo de dados armazenados, como categóricos ou numéricos, para adequar o tratamento de cada tipo de dados.</p>
+<li>Análise dos tipos de dados: foi feita uma análise de cada coluna para determinar o tipo de dados armazenados, como categóricos ou numéricos, para adequar o tratamento de cada tipo de dados.</p>
 
-Remoção de dados duplicados: foi feita uma análise de registros duplicados, removendo-os para garantir a integridade dos dados.</p>
+<li>Remoção de dados duplicados: foi feita uma análise de registros duplicados, removendo-os para garantir a integridade dos dados.</p>
 
-Transformação de variáveis: foram feitas transformações em variáveis categóricas para que pudessem ser utilizadas como features para o modelo.</p>
+<li>Transformação de variáveis: foram feitas transformações em variáveis categóricas para que pudessem ser utilizadas como features para o modelo.</p>
 
-Análise de inconsistência nos dados: foram verificadas as inconsistências nos dados, como valores inválidos e outliers, e foram tratados adequadamente.</p>
+<li>Análise de inconsistência nos dados: foram verificadas as inconsistências nos dados, como valores inválidos e outliers, e foram tratados adequadamente.</p>
 
 <h3>2. Análise exploratória</h3>
 Após o tratamento dos dados, foi realizada uma análise exploratória para entender melhor o conjunto de dados e encontrar possíveis padrões. As seguintes técnicas foram utilizadas na análise exploratória:</p>
 
-Análise da duração das músicas: foi feita uma análise das músicas com maiores e menores durações, buscando entender se a duração tem alguma relação com a popularidade.</p>
+<li>Análise da duração das músicas: foi feita uma análise das músicas com maiores e menores durações, buscando entender se a duração tem alguma relação com a popularidade.</p>
 
-Análise das músicas mais populares: foram analisadas as músicas com maiores índices de popularidade, buscando encontrar possíveis padrões em suas características.</p>
+<li>Análise das músicas mais populares: foram analisadas as músicas com maiores índices de popularidade, buscando encontrar possíveis padrões em suas características.</p>
 
-Análise dos artistas mais populares: foram analisados os artistas com maiores índices de popularidade, buscando entender se a popularidade do artista influencia na popularidade da música.</p>
+<li>Análise dos artistas mais populares: foram analisados os artistas com maiores índices de popularidade, buscando entender se a popularidade do artista influencia na popularidade da música.</p>
 
-Correlação entre as variáveis: foi feita uma análise de correlação entre as variáveis, buscando entender como as características das músicas estão relacionadas entre si.</p>
+<li>Correlação entre as variáveis: foi feita uma análise de correlação entre as variáveis, buscando entender como as características das músicas estão relacionadas entre si.</p>
 
 <h3>3. Machine Learning</h3>
 Na terceira etapa do projeto, foram testados 4 modelos de classificação: Logistic Regression, Decision Tree Classifier, KNearest e Random Forest. Além disso, foram utilizadas técnicas de balanceamento de dados, com Random UnderSampling, Random Over-Sampling, SMOTE e Híbrido (Oversampling e Undersampling), para garantir que o modelo não tivesse viés em relação às classes.</p>
 
 As seguintes técnicas foram utilizadas na etapa de Machine Learning:</p>
 
-Balanceamento dos dados: foram utilizadas técnicas de balanceamento de dados para garantir que o modelo não tivesse viés em relação às classes, já que a classe de músicas populares é minoritária.</p>
+<li>Balanceamento dos dados: foram utilizadas técnicas de balanceamento de dados para garantir que o modelo não tivesse viés em relação às classes, já que a classe de músicas populares é minoritária.</p>
 
-Treinamento e teste dos modelos: os modelos foram treinados e testados utilizando o conjunto de dados tratado e balanceado. Foi utilizada a técnica de cross-validation para garantir a qualidade do modelo.</p>
+<li>Treinamento e teste dos modelos: os modelos foram treinados e testados utilizando o conjunto de dados tratado e balanceado. Foi utilizada a técnica de cross-validation para garantir a qualidade do modelo.</p>
 
-Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score. Foram escolhidos os modelos com melhor desempenho para a próxima etapa.</p>
+<li>Avaliação dos modelos: os modelos foram avaliados com base nas métricas de acurácia, precisão, recall e f1-score. Foram escolhidos os modelos com melhor desempenho para a próxima etapa.</p>
 
 <h3>Previsão da popularidade de novas músicas</h3>
 Na última etapa do projeto, utilizou-se o modelo com melhor desempenho para prever a popularidade de novas músicas. Para isso, foram selecionadas algumas músicas do Spotify e suas características foram extraídas. Em seguida, utilizou-se o modelo para classificar essas músicas como populares ou não populares.</p>
