@@ -1,6 +1,6 @@
 ![descrição da imagem](https://i.ibb.co/jhn8vyd/Data-Science-1.jpg)
 
-O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. </p>
+O objetivo deste projeto é desenvolver um modelo de classificação eficaz para prever a popularidade de uma música com base em suas características, utilizando um dataset do Spotify. Ele foi construido no contexto do #7DaysOfCode, da Alura.</p>
 
 Os dados utilizados estão disponíveis <a href="https://raw.githubusercontent.com/letpires/7DaysOfCodeSpotifyML/main/dataset.csv">aqui</a></br>
 Me encontre no linkedIn clicando <a href="https://www.linkedin.com/in/edersonliver/">aqui</a>.</br>
